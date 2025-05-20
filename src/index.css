@@ -174,3 +174,9 @@ body {
   font-size: 14px;
   text-align: left;
 }
+
+.Service-parent h2{
+padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
