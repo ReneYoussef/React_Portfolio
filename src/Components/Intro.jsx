@@ -1,6 +1,6 @@
 import me from "../assets/ReneYoussef.png";
 
-export default function AboutME() {
+export default function Intro() {
   return (
     <div className="AboutMe">
       <div className="AboutMe-image">
