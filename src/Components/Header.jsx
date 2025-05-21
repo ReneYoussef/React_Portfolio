@@ -10,8 +10,8 @@ export default function Header() {
     <h2 className="header-text">Rene Youssef</h2>
     </div>
     <div className="nav-links">
-      <a href="/AboutMe">About</a>
-      <a href="/Services">Services</a>
+      <a href="/Intro">Home</a>
+      <a href="/services">Services</a>
       <a href="">Skills</a>
      
       <button>Lets Talk</button>

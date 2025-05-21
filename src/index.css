@@ -59,19 +59,11 @@ body {
   border-radius: 6px; /* Optional: make it look like a button */
 }
 
-
 .nav-links a:hover {
-  text-shadow:
-    0 0 5px #f1bc4a,
-    0 0 10px #f1bc4a,
-    0 0 20px #f1bc4a,
+  text-shadow: 0 0 5px #f1bc4a, 0 0 10px #f1bc4a, 0 0 20px #f1bc4a,
     0 0 30px #f1bc4a;
   color: #ffffff; /* Optional: change text color to match glow */
 }
-
-
-
-
 
 .nav-links button {
   width: 95px;
@@ -87,7 +79,7 @@ body {
 }
 
 .nav-links button:hover {
-  background-color: #f1bc4a;  /* bright yellow */
+  background-color: #f1bc4a; /* bright yellow */
   color: #000;
   box-shadow: 0 4px 12px rgba(241, 188, 74, 0.6);
   transform: scale(1.05);
@@ -142,30 +134,89 @@ body {
 /* Overlay the text */
 .AboutMe-text {
   position: absolute;
-  top: 74%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  text-align: center;
+  top: 40%;
+  left: 40%;
+  transform: translate(-80%, -50%);
+  width: 50%;
+  align-items: center;
   color: #f1bc4a;
   z-index: 2;
-
-  padding: 50px;
+  padding: 45px;
   border-radius: 10px;
 }
 
-.AboutMe-text h2 {
-    text-shadow: 2px 2px 5px #b1a68e;
-  font-size: 85px;
+.AboutMe-text span {
+  align-items: center;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  text-shadow: 2px 2px 5px #c7c0b2;
+  font-size: 45px;
   font-family: "Courier New", Courier, monospace;
   margin: 0;
 }
 .AboutMe-text h3 {
-    text-shadow: 2px 2px 5px #b1a68e;
-  font-size: 65px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  text-shadow: 2px 2px 5px #c7c0b2;
+  font-size: 35px;
   font-family: "Courier New", Courier, monospace;
   margin: 0;
 }
+.AboutMe-text h4 {
+  align-items: center;
+  text-shadow: 2px 2px 5px #c7c0b2;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  width: 500px;
+  margin: 0;
+}
+
+.AboutMe-Intro {
+  font-family: "Courier New", Courier, monospace;
+  align-items: center;
+  text-shadow: 2px 2px 15px #c7c0b2;
+  position: absolute;
+  top: 13%;
+  right: 30%;
+  transform: translate(80%, 40%);
+  width: 40%;
+  align-items: center;
+  color: #f1bc4a;
+  z-index: 2;
+  padding: 45px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+
+.AboutMe-info{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  justify-content: space-evenly;
+  top: 80%;
+  right: 75%;
+  width: 300px;
+  gap: 5px;
+  
+}
+
+.Info-Number{
+ 
+  font-size: 60px;
+  color: #f1bc4a;
+}
+.Info-Text{
+ 
+  color: #ffffff;
+}
+
+
+/* Services */
 .Services-container {
   display: flex;
   flex-wrap: wrap;
@@ -195,13 +246,13 @@ body {
     box-shadow: -5px -5px 20px #f1bc4a; /* top-left */
   }
   25% {
-    box-shadow: 5px -5px 20px #f1bc4a;  /* top-right */
+    box-shadow: 5px -5px 20px #f1bc4a; /* top-right */
   }
   50% {
-    box-shadow: 5px 5px 20px #f1bc4a;   /* bottom-right */
+    box-shadow: 5px 5px 20px #f1bc4a; /* bottom-right */
   }
   75% {
-    box-shadow: -5px 5px 20px #f1bc4a;  /* bottom-left */
+    box-shadow: -5px 5px 20px #f1bc4a; /* bottom-left */
   }
   100% {
     box-shadow: -5px -5px 20px #f1bc4a; /* back to top-left */
@@ -222,11 +273,10 @@ body {
   font-size: 14px;
   text-align: left;
 }
-.Service-parent{
-  
+.Service-parent {
   width: 100%;
   height: 100vh; /* Full screen section */
-  padding-top: 30px
+  padding-top: 30px;
 }
 
 .Service-parent h2 {
