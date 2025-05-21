@@ -7,11 +7,11 @@ export default function Header() {
    
     <div className="nav-title">
        <img src={logo} alt="" />
-    <h2 className="header-text">Rene Youssef</h2>
+    <a href="/" className="header-text">Rene Youssef</a>
     </div>
     <div className="nav-links">
-      <a href="/Intro">Home</a>
-      <a href="/services">Services</a>
+      <a href="">Services</a>
+      <a href="">Projects</a>
       <a href="">Skills</a>
      
       <button>Lets Talk</button>
