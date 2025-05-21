@@ -13,14 +13,13 @@ export default function Intro() {
           Hi, I'am <span> Rene Youssef</span>{" "}
         </h3>
 
-        <h4>Photographer, Websites & Mobile Developer</h4>
+        <h4>Computer Science Graduate</h4>
       </div>
       <div className="AboutMe-Intro">
         <p>
+          
           I’m driven by the challenge of turning complex problems into simple,
-          elegant solutions that people enjoy using every day. When I’m not
-          coding, you’ll find me hiking and capturing moments with my camera — a
-          reminder to always stay curious and creative.
+          elegant solutions that people enjoy using every day.
         </p>
       </div>
 
@@ -34,7 +33,7 @@ export default function Intro() {
 
       <div className="About_buttons">
         <button type="submit">Download Cv</button>
-        <button>Gallery</button>
+        {/* <button>Gallery</button> */}
       </div>
     </div>
   );

@@ -14,19 +14,5 @@ export default [
     title: "API Integration & Backend Services",
     description: "Design and integrate secure RESTful APIs, and develop backend systems using Node.js, Laravel, or Express for scalable and maintainable applications."
   },
-  {
-    id:4,
-    title: "Event Photography",
-    description: "Capture memorable moments at weddings, birthdays, and corporate events with high-quality photos and professional editing."
-  },
-  {
-    id:5,
-    title: "Product Photography",
-    description: "Showcase your products with clean, well-lit, and detailed images for e-commerce, catalogs, or promotional use."
-  },
-  {
-    id:6,
-    title: "Portrait & Lifestyle Photography",
-    description: "Offer personalized portrait sessions including indoor, outdoor, or studio setups tailored to individual or family preferences."
-  }
+
 ];

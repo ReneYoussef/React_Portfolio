@@ -199,7 +199,7 @@ body {
   align-items: center;
   text-shadow: 0px 0px 15px #c7c0b2;
   position: absolute;
-  top: 13%;
+  top: 15%;
   right: 30%;
   transform: translate(80%, 40%);
   width: 40%;
@@ -257,8 +257,9 @@ body {
 /* Services */
 
 .Service-parent {
+
   width: 100%;
-  height: 101vh;
+  height: 105vh;
   /* Full screen section */
   padding-top: 30px;
   margin-bottom: -20px;
@@ -353,15 +354,18 @@ body {
 
 /* Parent wrapper for the projects section */
 .Projects-parent {
+
   width: 100%;
   height: 100vh;
   /* Full screen section */
-  padding-top: 30px;
-  margin-bottom: -20px;
+  padding-top: 60px;
+
 }
 
 /* Section title */
 .Projects-parent h2 {
+  top: 4%;
+
   margin: 40px;
   position: relative;
 
@@ -448,7 +452,6 @@ body {
   }
 }
 
-
 /* Experience css */
 
 .experience-parent {
@@ -468,7 +471,6 @@ body {
 }
 
 .experience-container {
-
   padding-left: 50px;
   display: flex;
   flex-direction: column;
@@ -478,13 +480,12 @@ body {
 }
 
 .experience-card {
-
   background-color: transparent;
   color: #f1bc4a;
   border-radius: 20px;
   box-shadow: 2px 1px 10px rgb(245, 244, 243);
   width: 600px;
-  min-height: 40px; 
+  min-height: 40px;
 }
 
 .experience-card:hover {
@@ -502,12 +503,11 @@ body {
 }
 
 .experience-card p {
-   display: flex;
+  display: flex;
   margin: 20px;
   font-size: 12px;
   color: #ffffff;
 }
-
 
 /* Education css */
 .Education-parent {
@@ -527,14 +527,12 @@ body {
 }
 
 .Education-container {
- 
   padding-left: 50px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-gap: 26px;
+  gap: 20px;
   box-sizing: border-box;
-
 }
 
 .Education-card {
@@ -543,7 +541,7 @@ gap: 26px;
   border-radius: 20px;
   box-shadow: 2px 1px 10px rgb(245, 244, 243);
   width: 600px;
-  min-height: 40px; 
+  min-height: 40px;
 }
 
 .Education-card:hover {
@@ -571,6 +569,83 @@ gap: 26px;
 .side-by-side-container {
   display: flex;
   gap: 20px; /* space between components */
-  justify-content: center; /* center horizontally (optional) */
-  align-items: start; /* align to top */
+  justify-content: space-evenly; /* center horizontally (optional) */
+  align-items: center; /* align to top */
+}
+
+/* Skills css */
+
+/* Container for the whole Skills section */
+.Skills-Parent {
+
+  width: 100%;
+  height: 50vh;
+  margin: 0;
+  padding-top: 60px;
+
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading styles */
+.Skills-Parent h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 24px;
+  color: #f1bc4a;
+}
+
+/* SkillsList-container styles */
+.SkillsList-container {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  gap: 20px; /* space between skill items */
+}
+
+/* Individual skill item */
+.skill-item {
+  flex: 0 1 calc(30% - 15px); /* basis for 4 per row minus some gap */
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Skill name */
+.skill-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+  color:#ffffff;
+}
+
+/* Proficiency bar container */
+.proficiency-bar {
+  background-color: #c7c7c7e1;
+  border-radius: 10px;
+  height: 18px;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 5px 1px 13px rgba(255, 255, 255, 0.8);
+}
+
+/* Proficiency fill */
+.proficiency-fill {
+  background-color: #ffae00;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  transition: width 0.6s ease;
+}
+
+/* Percentage text */
+.proficiency-percent {
+  font-size: 0.95rem;
+  color: #ffffffd2;
+  margin-top: 5px;
+  text-align: right;
+  font-family: monospace;
 }

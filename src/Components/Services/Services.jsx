@@ -5,7 +5,7 @@ import ServiceLists from "./ServiceLists";
 export default function Services() {
   return (
     <div className="Service-parent">
-      <h2>Our Services</h2>
+      <h2>Services</h2>
       <ServiceLists services={services} />
     </div>
   );
