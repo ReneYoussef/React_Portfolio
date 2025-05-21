@@ -1,8 +1,10 @@
 import me from "../assets/ReneYoussef.png";
+import backgroungImage from "../assets/dots.jpg"
 
 export default function Intro() {
   return (
     <div className="AboutMe">
+      <img className="AboutMe-backgroungImage"  src={backgroungImage} alt="" />
       <div className="AboutMe-image">
         <img src={me} alt="About Image" />
       </div>

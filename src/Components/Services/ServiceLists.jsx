@@ -1,6 +1,6 @@
 
 
-function ServiceLists({ services }) {
+export default function ServiceLists({ services }) {
   return (
     <div className="Services-container">
       {services.map((service) => (
@@ -14,4 +14,4 @@ function ServiceLists({ services }) {
   );
 }
 
-export default ServiceLists;
+
