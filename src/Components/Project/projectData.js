@@ -24,6 +24,7 @@ export default [
       "An e-commerce shoe shopping app built with Flutter and Laravel REST API. Users can browse, filter, and order shoes, while admins manage inventory, products, and orders via a backend dashboard.",
     imgurl: HoopHouseLogo,
   },
+  
 ];
 
 

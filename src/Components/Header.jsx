@@ -12,6 +12,7 @@ export default function Header() {
     <div className="nav-links">
       <a href="">Services</a>
       <a href="">Projects</a>
+      <a href="">Exp & Edu</a>
       <a href="">Skills</a>
      
       <button>Lets Talk</button>
